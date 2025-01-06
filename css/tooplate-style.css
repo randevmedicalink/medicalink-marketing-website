@@ -471,6 +471,18 @@ http://www.tooplate.com/view/2098-health
     padding-bottom: 150px;
   }
 
+  #vision {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+
+  #mission {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .profile img,
   .profile figcaption {
     display: inline-block;

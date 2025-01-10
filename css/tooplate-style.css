@@ -981,41 +981,11 @@ http://www.tooplate.com/view/2098-health
     h3 {
       font-size: 1.5em;
     }
-
-    header {
-      display: none;
-      height: inherit;
-    }
-    header span.date-icon {
-      border: 0;
-      padding-right: 0;
-      padding-left: 0;
-    }
-    header span.email-icon {
-      padding-top: 0;
-    }
-
-    .navbar-default .navbar-nav li a {
-      padding-right: 15px;
-      padding-left: 15px;
-    }
   }
 
   @media only screen and (max-width: 992px) {
     .slider .item {
       background-position: center;
-    }
-
-    header {
-      padding-bottom: 10px;
-    }
-    header .text-align-right {
-      text-align: left;
-    }
-    header span {
-      padding-top: 0;
-      padding-left: 0;
-      padding-bottom: 0;
     }
   }
 

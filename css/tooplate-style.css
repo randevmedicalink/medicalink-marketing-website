@@ -228,6 +228,18 @@
       MENU              
   -----------------------------------------*/
 
+  @media only screen and (max-width: 767px) {
+    .navbar-hide-on-mobile {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .navbar-hide-on-desktop {
+      display: none;
+    }
+  }
+
   .navbar-default {
     background: #ffffff;
     box-shadow: 0 2px 8px rgba(0,0,0,.075);
@@ -246,10 +258,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .navbar-default .navbar-nav li.contact-btn {
-    margin: 3px 0 0 20px;
   }
 
   .navbar-default .navbar-nav li.contact-btn a {

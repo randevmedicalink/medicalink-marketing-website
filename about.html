@@ -42,8 +42,8 @@
           /></a>
         </div>
 
-        <!-- MENU LINKS -->
-        <div class="collapse navbar-collapse">
+        <!-- MENU LINKS ON DESKTOP-->
+        <div class="navbar-hide-on-mobile">
           <ul class="nav navbar-nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html" class="smoothScroll">About</a></li>
@@ -55,7 +55,7 @@
         </div>
 
         <!-- CONTACT US BUTTON -->
-        <div class="collapse navbar-collapse">
+        <div class="navbar-hide-on-mobile">
           <ul class="nav navbar-nav">
             <li class="contact-btn">
               <a href="contact.html">Contact Us</a>
@@ -65,6 +65,7 @@
 
         <!-- MENU BUTTON -->
         <button
+        id="menu-btn"
           class="navbar-toggle"
           data-toggle="collapse"
           data-target=".navbar-collapse"
@@ -74,6 +75,19 @@
           <span class="icon icon-bar"></span>
         </button>
       </div>
+      
+      <!-- MENU LINKS ON MOBILE-->
+       <div class="navbar-hide-on-desktop">
+        <ul class="nav navbar-nav collapse navbar-collapse">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">EMR</a></li>
+          <li><a href="research.html" class="smoothScroll">Research</a></li>
+          <li><a href="#news" class="smoothScroll">Services</a></li>
+          <li><a href="#">Store</a></li>
+          <hr>
+          <li><a href="contact.html">Contact Us</a></li>
+        </div>
     </section>
 
     <!-- VISION -->
